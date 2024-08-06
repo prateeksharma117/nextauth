@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.root-container {
+  @apply mt-16 flex-1 overflow-auto py-8 lg:mt-0 lg:max-h-screen lg:py-10;
+}
+
+.wrapper {
+  @apply md:max-w-[80%] first-letter:px-2 py-5 md:px-10 w-full;
+}
+
+.userWrapper {
+  @apply py-24 h-auto w-full;
+}
+
+.leftsidebar {
+  @apply sticky left-0 top-0 flex h-screen w-fit flex-col justify-between bg-[#1e1e2b] overflow-hidden border-t border-[#292937] pb-5 pt-16 max-md:hidden;
+}
+
+.leftsidebar_link {
+  @apply relative flex justify-start gap-4 rounded-lg p-4;
+}
